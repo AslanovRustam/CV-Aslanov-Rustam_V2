@@ -1,0 +1,85 @@
+.img-box {
+  margin-bottom: 20px;
+}
+
+.img-box > img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.aside-titles {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.contacts-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.contacts-icon {
+  fill: #ffffff;
+  margin-right: 10px;
+}
+
+.contacts-icon.linkedin {
+  border-radius: 2px;
+  background-color: #ffffff;
+}
+
+.contacts-link {
+  color: #adb1b7;
+}
+
+.skills-item, .languages-skills-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-columns: 20px 2fr 1fr;
+      grid-template-columns: 20px 2fr 1fr;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills-item:not(:last-child), .languages-skills-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.skills-double-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.71;
+  letter-spacing: 0.02em;
+  color: #adb1b7;
+}
+
+.languages-skills-item {
+  -ms-grid-columns: 20px 1fr 1fr;
+      grid-template-columns: 20px 1fr 1fr;
+}
+/*# sourceMappingURL=aside.css.map */
