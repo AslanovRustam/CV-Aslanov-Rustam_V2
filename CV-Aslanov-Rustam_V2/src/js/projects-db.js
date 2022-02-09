@@ -8,35 +8,45 @@ import webStudio from '../images/webstudio.jpg';
 import description from '../images/description.svg';
 import tools from '../images/tools.svg';
 import qatests from '../images/QATests.jpg';
+import pomodoro from '../images/pomodoro.jpg';
+
 
 export const teamProjects = [
-  {
-    name: 'QATests',
-    url: 'https://fin-proj-gr7.netlify.app/auth',
-    screenshot: qatests,
-    description: 'app for testing QA Engineers (role: scrum master, developer)',
-    stack: 'JS, SASS, HTML, React App, REST API, GIT, Figma, Trello',
-    icons: { description, tools },
-  },
-  {
-    name: 'Filmoteka',
-    url: 'https://adya27.github.io/js-project-group4/',
-    screenshot: filmoteka,
-    description: 'movie search and storage app (role: developer)',
-    stack: 'JS, SCSS, HTML, Handlebars, Parcel, REST API, GIT, Figma, Trello',
-    icons: { description, tools },
-  },
-  {
-    name: 'BarberShop',
-    url: 'https://aslanovrustam.github.io/Barbershop/',
-    screenshot: barberShop,
-    description: 'landing page for hair salon for men (role: developer)',
-    stack: 'HTML, CSS, JS, Parcel, GIT, Figma, Trello',
-    icons: { description, tools },
-  },
+  // {
+  //   name: 'QATests',
+  //   url: 'https://fin-proj-gr7.netlify.app/auth',
+  //   screenshot: qatests,
+  //   description: 'app for testing QA Engineers (role: scrum master, developer)',
+  //   stack: 'JS, SASS, HTML, React App, REST API, GIT, Figma, Trello',
+  //   icons: { description, tools },
+  // },
+  // {
+  //   name: 'Filmoteka',
+  //   url: 'https://adya27.github.io/js-project-group4/',
+  //   screenshot: filmoteka,
+  //   description: 'movie search and storage app (role: developer)',
+  //   stack: 'JS, SCSS, HTML, Handlebars, Parcel, REST API, GIT, Figma, Trello',
+  //   icons: { description, tools },
+  // },
+  // {
+  //   name: 'BarberShop',
+  //   url: 'https://aslanovrustam.github.io/Barbershop/',
+  //   screenshot: barberShop,
+  //   description: 'landing page for hair salon for men (role: developer)',
+  //   stack: 'HTML, CSS, JS, Parcel, GIT, Figma, Trello',
+  //   icons: { description, tools },
+  // },
 ];
 
 export const ownProjects = [
+  {
+    name: 'Pomodoro',
+    url: 'https://aslanovrustam.github.io/pomodoro/',
+    screenshot: pomodoro,
+    description: 'own wersion of Pomodoro application ',
+    stack: 'React, JS, SCSS, HTML, Git',
+    icons: { description, tools },
+  },
   {
     name: 'PhoneBook',
     url: 'https://aslanovrustam.github.io/goit-react-hw-08-phonebook/',
@@ -75,6 +85,14 @@ export const ownProjects = [
     screenshot: webStudio,
     description: 'app for a web studio',
     stack: 'HTML, SCSS, JS, GIT, Figma',
+    icons: { description, tools },
+  },
+  {
+    name: 'BarberShop',
+    url: 'https://aslanovrustam.github.io/Barbershop/',
+    screenshot: barberShop,
+    description: 'landing page for hair salon for men (role: developer)',
+    stack: 'HTML, CSS, JS, Parcel, GIT, Figma, Trello',
     icons: { description, tools },
   },
 ];
