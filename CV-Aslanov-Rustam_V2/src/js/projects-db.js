@@ -9,7 +9,10 @@ import description from '../images/description.svg';
 import tools from '../images/tools.svg';
 import qatests from '../images/QATests.jpg';
 import pomodoro from '../images/pomodoro.jpg';
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
 export const teamProjects = [
   // {
@@ -43,7 +46,11 @@ export const ownProjects = [
     name: 'Pomodoro',
     url: 'https://aslanovrustam.github.io/pomodoro/',
     screenshot: pomodoro,
+<<<<<<< Updated upstream
     description: 'own wersion of Pomodoro application ',
+=======
+    description: 'own wersion of Pomodoro application',
+>>>>>>> Stashed changes
     stack: 'React, JS, SCSS, HTML, Git',
     icons: { description, tools },
   },
