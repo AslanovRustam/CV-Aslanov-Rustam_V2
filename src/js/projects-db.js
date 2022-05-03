@@ -9,6 +9,7 @@ import description from '../images/description.svg';
 import tools from '../images/tools.svg';
 import qatests from '../images/QATests.jpg';
 import pomodoro from '../images/pomodoro.jpg';
+import starWars from '../images/starWars.jpg';
 
 export const teamProjects = [
   // {
@@ -38,6 +39,15 @@ export const teamProjects = [
 ];
 
 export const ownProjects = [
+  {
+    name: 'Star-Wars',
+    url: 'https://aslanovrustam.github.io/star_wars/',
+    screenshot: starWars,
+    description:
+      'site with basical information about Star-Wars universe, including films, species, people, planets, starships and vehicles',
+    stack: 'React, JS, CSS, HTML, Git, API, NPM',
+    icons: { description, tools },
+  },
   {
     name: 'Pomodoro',
     url: 'https://aslanovrustam.github.io/pomodoro/',
